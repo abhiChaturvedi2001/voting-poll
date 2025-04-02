@@ -4,6 +4,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors";
 import authRouter from "./routes/authRoutes.js";
 import votingRouter from "./routes/votingRoutes.js";
+import { connectDb } from "./config/db.js";
 
 dotenv.config();
 
